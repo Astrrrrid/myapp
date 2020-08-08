@@ -26,7 +26,7 @@ function App() {
 export default App; */
 
 import React from 'react';
-import logo from './logo.svg';
+import meme from './meme_p.JPG';
 import './App.css';
 
 function App() {
@@ -35,15 +35,16 @@ function App() {
             <header className="App-header">
                 
                 <p>
-                    welcome to Astrid's demo page. 
+                    Welcome to Astrid's demo page. 
         </p>
+                <img src={meme} className="App-meme" alt="a funny meme" />
                 <a
                     className="App-link"
                     href="https://reactjs.org"
                     target="_blank"
                     rel="noopener noreferrer"
                 >
-                    Learn React
+                    Click to get more info for React
         </a>
             </header>
         </div>
